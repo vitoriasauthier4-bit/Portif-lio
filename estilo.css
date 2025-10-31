@@ -106,22 +106,15 @@ ul a{
 
 .curiosidades{
     font-size: 40px;
-    
-}
-.auau{
-    font-size: 35px;
-}
- 
-.lugar{
-    font-size: 35px;
-
 }
 
-.auau{
+.frases p{
+    font-size: 50px;
+}
+
+.curiosidadesorganizacao{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.lugar{
-    display: flex;
-    flex-grow: ;
-}
