@@ -1,120 +1,114 @@
-body{
+body {
     background-color: var(--cor-fundo);
 }
-:root{
- --cor-fundo:#FAE6DA;
- --cor-texto: #110e0e;
- --cor-titulo:#D58181;
- --cor-subtitulo:#CD6969;
- --cor-detalhe:white;
- --cor-topico:#CD6969;
- --cor-botoes: #e59595;
- --cor-letra-botoes:white;
- --cor-final-fundo:#fefefe;
- --cor-final-letra:#CD6969;
- 
-}
- p {
-    color:var(--cor-texto);
-    font: size 20px;
-    text-align:left;
+
+:root {
+    --cor-fundo: #FAE6DA;
+    --cor-texto: #110e0e;
+    --cor-titulo: #D58181;
+    --cor-subtitulo: #CD6969;
+    --cor-detalhe: white;
+    --cor-topico: #CD6969;
+    --cor-botoes: #e59595;
+    --cor-letra-botoes: white;
+    --cor-final-fundo: #fefefe;
+    --cor-final-letra: #CD6969;
 }
 
-h1{
+p {
+    color: var(--cor-texto);
+    font: size 20px;
+    text-align: left;
+}
+
+h1 {
     color: var(--cor-titulo);
     font-family: "Gravitas One", serif;
     font-size: 50px;
 }
 
-h2{
-   color:var(--cor-subtitulo);
-   background-color:var(--cor-detalhe);
-   font-size: 50px; 
+h2 {
+    color: var(--cor-subtitulo);
+    background-color: var(--cor-detalhe);
+    font-size: 50px;
 }
 
-ul{
+ul {
     color: var(--cor-topico);
     font-size: 60px;
     text-align: start;
 }
 
-.imagens{
+.imagens {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     flex-direction: row;
 }
 
-.texto{
+.texto {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
+
 }
 
-.icones{
+.icones {
     display: flex;
     justify-content: flex-end;
 }
+
 .eu {
-
-    font-size:40px;
-
- }
-
- .objetivo{
     font-size: 40px;
- }
+}
 
- .Educação{
+.objetivo {
     font-size: 40px;
- }
+}
 
-.Experiencia{
+.Educação {
+    font-size: 40px;
+}
+
+.Experiencia {
     font-size: 40px;
 
 }
 
-.habilidades{
+.habilidades {
     font-size: 40px;
 }
 
-ul a{
+ul a {
     font-size: 30px;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--cor-botoes);
     text-decoration: none;
     color: var(--cor-letra-botoes);
-    
-   
 }
 
-.final{
- 
- 
- background-color:var(--cor-final-fundo);
- color: var(--cor-final-letra);
- text-align: center;
- font-size: 20px;
- 
+.final {
+    background-color: var(--cor-final-fundo);
+    color: var(--cor-final-letra);
+    text-align: center;
+    font-size: 20px;
 }
 
-.curiosidades{
+.curiosidades {
     font-size: 40px;
 }
 
-.frases p{
+.frases p {
     font-size: 50px;
 }
 
-.curiosidadesorganizacao{
+.curiosidadesorganizacao {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
